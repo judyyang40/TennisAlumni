@@ -1,0 +1,1 @@
+PhotoList = new Mongo.Collection('pics');

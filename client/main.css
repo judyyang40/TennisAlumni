@@ -1,0 +1,68 @@
+img.bg {
+	min-height: 100%;
+	min-width: 1024px;
+
+	width: 100%;
+	height: auto;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	opacity: 0.25;
+}
+
+.header-div {
+	padding: 20px;
+}
+
+.slide {
+	min-width: 300px;
+	height: 480px;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+.alum-list {
+	max-height: 480px;
+	overflow-y: hidden;
+}
+
+li {
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+.register-form {
+	margin-top: 30px;
+	min-height: 63px;
+	background-color: rgba(178, 138, 88, 0.5);
+	overflow: auto;
+}
+
+.mini-nav {
+	position: absolute;
+	top: 20px;
+	right: 25px;
+}
+
+.mini-nav a {
+	color: #FF7F50;
+	margin: 0px 15px;
+}
+
+.glyphicon {
+	font-size: 50px;
+}
+
+.photo-img {
+	max-height: 240px;
+}
+
+.photo-bg {
+	background-color: rgba(0, 204, 204, 0.35);
+	min-height: 100%;
+	width: 100%;
+	height: auto;
+	position: fixed;
+}

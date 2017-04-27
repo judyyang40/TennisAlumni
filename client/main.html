@@ -1,0 +1,36 @@
+<template name="mainLayout">
+<body>
+<img class="bg" src="images/court.jpg">
+{{> navbar}}
+<div class="container">
+<div class="row header-div"><h1>We are NTU Tennis!</h1></div>
+<div class="row">
+	<div class="col-md-9">
+		<div class="slide">
+	    	<img src="images/1.jpg"/>
+	    	<img src="images/2.jpg"/>
+	    	<img src="images/3.jpg"/>
+	    </div>
+	</div> 
+	<div class="col-md-3">{{> memlist}}</div>
+</div>
+</div>
+{{> registerMemberForm}}
+</body>
+</template>
+<template name="memlist">
+	<ul class="alum-list"><h4>Fellow Alumnus</h4>{{#each member}} <li class="mem">{{name}}, {{graduated}}</li> {{/each}}
+	</ul>
+</template>
+<template name="registerMemberForm">
+	<div class="register-form">
+	<form>
+		<div class="form-group">
+			<div class="col-md-1"></div>
+			<div class="col-md-4"><input type="text" name="memberName" class="form-control" placeholder="Your name"></div>
+			<div class="col-md-3"><input type="text" name="graduationYear" class="form-control" placeholder="Your graduation year"></div>
+			<div class="col-md-3"><input type="submit" class="btn btn-default" value="Register as alumni!"></div>
+		</div>
+	</form>
+	</div>
+</template>
